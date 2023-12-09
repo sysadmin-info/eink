@@ -11,6 +11,8 @@ Ogólne założenia są takie, że czasem ten kod należy poprawić, bo nie zaws
 
 Wielokrotnie naciąłem się na to, że jakość kodu w C, C++, czy Python w Wiki Waveshare pozostawia wiele do życzenia, a czasem jest to wręcz szkolny problem źle napisanej pętli for. Miałem taki przypadek i w moim innym repo jest kod do waveshare, gdzie poprawiałem pętlę, bo logika pomiaru temperatury była zła.
 
+Stąd w większości przypadków należy dokonać refaktoryzacji kodu Python. 
+
 Generalnie komendą df - kTh wyciągasz dane o użyciu dysku. Możesz użyć awk, sed grep, egrep, gawk z użyciem df lub du i wyrzucać dane do jakiegoś pliku tekstowego.
 Potem to musisz zamienić na obrazek i wysłać do eink. Możesz to zrobić w skrypcie Python.
 
