@@ -25,4 +25,8 @@ Jak wysłać to na eink. Na przykład tak jak poniżej.
 6. Odśwież wyświetlacz
 - Wyświetlacze e-ink często wymagają polecenia odświeżenia, aby zaktualizować wyświetlany obraz.
 
- 
+Uwaga: Zamień `eink_library` i metody takie jak `EInkDisplay`, `convert_image`, `display_image` i `refresh` na rzeczywiste biblioteki i metody używane dla Twojego konkretnego modelu wyświetlacza e-ink.
+Jeśli podasz dokładny model swojego wyświetlacza e-ink, mogę dać Ci bardziej szczegółowe wskazówki dostosowane do tego modelu.
+
+
+Temat załatwia crontab. Jak nie ogarniasz to popatrz na crontab guru. Odpalasz skrypt jeden po drugim w odstępie minuty. Jeden zbiera stan dysku, drugi wysyła na eink. To rozwiązuje cały Twój problem. 
