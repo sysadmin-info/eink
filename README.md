@@ -29,4 +29,4 @@ Uwaga: Zamień `eink_library` i metody takie jak `EInkDisplay`, `convert_image`,
 Jeśli podasz dokładny model swojego wyświetlacza e-ink, mogę dać Ci bardziej szczegółowe wskazówki dostosowane do tego modelu.
 
 
-Temat załatwia crontab. Jak nie ogarniasz to popatrz na crontab guru. Odpalasz skrypt jeden po drugim w odstępie minuty. Jeden zbiera stan dysku, drugi wysyła na eink. To rozwiązuje cały Twój problem. 
+Temat załatwia crontab. Jak nie ogarniasz to popatrz na [crontab guru](https://crontab.guru/). Odpalasz skrypt jeden po drugim w odstępie minuty. Jeden zbiera stan dysku, drugi wysyła na eink. To rozwiązuje cały Twój problem. 
