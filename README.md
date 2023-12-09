@@ -5,7 +5,7 @@ W razie czego musisz poprosić mnie o pomoc, żeby to rozwiązać. Generalnie ca
 
 Przykładowe [wyświetlacze eink od waveshare](https://www.waveshare.com/epaper)
 
-Każdy z nich ma na samym dole stronę do WIki, a przynajmniej powinien mieć, gdzie jest przykłądowa implementacja. 
+Każdy z nich ma na samym dole stronę do WIki, a przynajmniej powinien mieć, gdzie jest przykładowa implementacja. 
 
 Ogólne założenia są takie, że czasem ten kod należy poprawić, bo nie zawsze jest on prawidłowo napisany. Stąd po prostu podaj dokłądny model wyświetlacza i będzie można napisać to, jak należy. 
 
