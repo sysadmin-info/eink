@@ -3,6 +3,14 @@
 ** Najpierw sprawdź, jaki masz model wyświetlacza i odpowiednio dostosuj plik library.py poprzez analizę tego, co daje producent danego wyświetlacza eink, o ile w ogóle daje on instrukcję.
 W razie czego musisz poprosić mnie o pomoc, żeby to rozwiązać. Generalnie całe repo ma możliwość rozbudowy o pliki w Python dla konkretnych wyświetlaczy. 
 
+Przykładowe [wyświetlacze eink od waveshare](https://www.waveshare.com/epaper)
+
+Każdy z nich ma na samym dole stronę do WIki, a przynajmniej powinien mieć, gdzie jest przykłądowa implementacja. 
+
+Ogólne założenia są takie, że czasem ten kod należy poprawić, bo nie zawsze jest on prawidłowo napisany. Stąd po prostu podaj dokłądny model wyświetlacza i będzie można napisać to, jak należy. 
+
+Wielokrotnie naciąłem się na to, że jakość kodu w C, C++, czy Python w Wiki Waveshare pozostawia wiele do życzenia, a czasem jest to wręcz szkolny problem źle napisanej pętli for. Miałem taki przypadek i w moim innym repo jest kod do waveshare, gdzie poprawiałem pętlę, bo logika pomiaru temperatury była zła.
+
 Generalnie komendą df - kTh wyciągasz dane o użyciu dysku. Możesz użyć awk, sed grep, egrep, gawk z użyciem df lub du i wyrzucać dane do jakiegoś pliku tekstowego. 
 Potem to musisz zamienić na obrazek i wysłać do eink. Możesz to zrobić w skrypcie Python. 
 
