@@ -6,7 +6,7 @@ W crontab możesz ustawić, żeby skrypt był wykonywany co kilka minut, lub jak
 To powinno załatwić temat najszybciej. Z grafana jest o tyle łatwiej, że wykresy możesz szybko przerabiać na grafiki i wysyłać do eink, 
 ale musisz postawić grafana+Telegraf+influxdb albo Prometheus zamiast Telegraf, czyli kombajn. Nie ma to sensu, bo strzelasz wtedy do komara z armaty. 
 Ewentualnie możesz bashtop, czy glances ogarnąć to tak, aby widok zajętości dysków zrzucał do obrazka. Tak czy siak, sprowadza się to tego, 
-jak zapisać to co idzie na standard output do obrazka i wysłać do do eink.
+jak zapisać to co idzie na standard output do obrazka i wysłać to do eink.
 
 Jak wysłać to na eink. Na przykład tak jak poniżej.
 
