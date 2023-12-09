@@ -79,16 +79,13 @@ class EPD:
     def Temperature(self):
         if ( self.VAR_Temperature < 10 ):
             self.send_command(0x7E)
-            self.send_command(0x81)
-            self.send_command(0xB4)
         else: 
             self.send_command(0x7b)
-            self.send_command(0x81)
-            self.send_command(0xB4) 
-        
-        self.ReadBusy()        
+        self.send_command(0x81)
+        self.send_command(0xB4)
+        self.ReadBusy()
         self.send_command(0xe7)    # Set default frame time
-        
+
         # Set default frame time
         if (self.VAR_Temperature<5):
             self.send_command(0x31) # 0x31  (49+1)*20ms=1000ms
