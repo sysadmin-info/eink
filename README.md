@@ -1,4 +1,8 @@
 # eink
+
+** Najpierw sprawdź, jaki masz model wyświetlacza i odpowiednio dostosuj plik library.py poprzez analizę tego, co daje producent danego wyświetlacza eink, o ile w ogóle daje on instrukcję.
+W razie czego musisz poprosić mnie o pomoc, żeby to rozwiązać. Generalnie całe repo ma możliwość rozbudowy o pliki w Python dla konkretnych wyświetlaczy. 
+
 Generalnie komendą df - kTh wyciągasz dane o użyciu dysku. Możesz użyć awk, sed grep, egrep, gawk z użyciem df lub du i wyrzucać dane do jakiegoś pliku tekstowego. 
 Potem to musisz zamienić na obrazek i wysłać do eink. Możesz to zrobić w skrypcie Python. 
 
