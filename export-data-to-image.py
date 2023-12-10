@@ -5,7 +5,6 @@ def get_disk_usage():
 # df -h wyświetla wszystkie dyski w tzw. human readable format. Możesz dać df -h /home
 process = subprocess.Popen(['df', '-h'], stdout=subprocess.PIPE)
 out, err = process.communicate()
-return out.decode('utf-8')
 # Function to create an image with text
 def create_image_with_text(text, image_file):
 # Create an image with white background
